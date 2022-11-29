@@ -1,0 +1,241 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  .header-content {
+    background-color: #1f2937;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo {
+    height: 70px;
+    width: 100px;
+    margin-bottom: 80px;
+    align-self: flex-start;
+  }
+
+  .headerimg {
+    height: auto;
+    width: 300px;
+    margin-top: 70px;
+    border-radius: 30px;
+  }
+
+  .header-texts-logo-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+  }
+
+  .header-title {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 48px;
+    align-self: flex-end;
+    width: 400px;
+  }
+
+  .header-subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 400px;
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+
+  .signup {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    height: 40px;
+    width: 80px;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 10px;
+    align-self: flex-start;
+  }
+
+  .header-links {
+    display: flex;
+    gap: 30px;
+    font-weight: bold;
+    padding-left: 0px;
+    justify-content: space-between;
+  }
+
+  .img-and-links {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .body-content {
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+  }
+
+  .body-title {
+    font-size: 36px;
+    margin-top: 60px;
+    font-weight: bold;
+    color: #1f2937;
+  }
+
+  .content-images {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 115px;
+  }
+
+  .contentimg {
+    border-radius: 30px;
+    border: solid #3882f6;
+    height: 200px;
+    width: 150px;
+  }
+
+  .small-subtext {
+    width: 1000px;
+    text-align: center;
+    display: flex;
+    gap: 80px;
+    padding-top: 1px;
+  }
+
+
+  .upper-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+
+  .mid-part {
+    background-color: #e5e7eb;
+    margin-top: 170px;
+    margin-bottom: 140px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quote {
+    color: #1f2937;
+    width: 700px;
+    font-size: 36px;
+    padding: 100px;
+    padding-bottom: 50px;
+    font-style: italic;
+    font-weight: lighter;
+  }
+
+  .quoter {
+    color: #1f2937;
+    font-size: 26px;
+    font-weight: bold;
+    align-self: center;
+    padding-bottom: 100px;
+    margin-left: 350px;
+  }
+
+  .lower-part {
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .popup-signin {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    height: 160px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+  .popup-text {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .popup-title {
+    width: 500px;
+    padding-top: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 200px;
+  }
+
+  .popup-subtext {
+    width: 500px;
+    padding-top: 10px;
+    margin-right: 200px;
+    font-size: 16px;
+  }
+
+  .signup2 {
+    background-color: #3882f6;
+    border: solid 2px #f9faf8;
+    color: #f9faf8;
+    font-weight: bold;
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 15px;
+  }
+
+  .footer-content {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+  }
+
+
+
+
